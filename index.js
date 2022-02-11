@@ -1,4 +1,4 @@
-fetch('https://api101.herokuapp.com/')
+fetch('https://api101.herokuapp.com/products')
   .then(response => response.json())
   .then(json => {
       var RH = document.getElementById('RH');
