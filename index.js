@@ -37,7 +37,7 @@ fetch('https://roudy.herokuapp.com/Services')
         CustomisedContent = CustomisedContent.replace('Hello',json[i].title);
         CustomisedContent = CustomisedContent.replace('Hey',json[i].description);
         CustomisedContent = CustomisedContent.replace('Hi',json[i].icon);
-        MyContent.className = 'd-flex align-items-stretch'
+        MyContent.className = 'col-lg-4 col-md-6 icon-box'
         MyContent.innerHTML = CustomisedContent;
         UE.appendChild(MyContent);
     }
